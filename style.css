@@ -1,0 +1,182 @@
+body{
+    background-color: black; /* Define a cor de fundo*/
+}
+
+h2{
+    font-size: 30px; /* Define a tamanho da fonte do h2*/
+    color: #3b6df7; /* Define cor da fonte do h2 */
+    font-weight: bold; /* Define a espessura da fonte do h2*/
+    letter-spacing: 3px; /*Determina o espaçamento entre as letras do h2*/
+    text-transform: uppercase; /*Transforma o texto para maiúsculas do h2*/
+    margin-bottom: 40px;/*propriedades controlam a margem*/
+
+}
+p {
+    color: white;/*cor de todos parageafos*/
+  }
+
+section {
+    margin: 100px auto;/*define as margens para os elementos <section>.*/
+  }
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png'); /*Permite adicionar uma imagem como fundo do elemento.*/
+    background-size:cover;/*A imagem será dimensionada para cobrir todo o espaço do elemento*/
+    height: 700px;/*difine a altura de um elemento*/
+    padding-top: 60px;/*define o preenchimento acima do elemento*/
+    border-bottom: 1px solid #33A8DB80;/*Arredondamento apenas no canto inferior direito */
+  }
+
+.banner .banner-content {
+    color: white; /*Defini a cor*/
+    width: 600px; /*difine a largura de um elemento*/
+    margin: auto;/*Aplicando margem no conteúdo*/
+    text-align: center; /*Defini o texto no centro*/
+  }
+.banner h1{
+    font-size: 40px;/* Define a tamanho da fonte */
+    font-weight: 900;/* Define a espessura da fonte */
+    text-transform: uppercase;/*Coloca as letra em maiúsculas*/
+    color: transparent;/* botando transparencia na letra*/
+    background: -webkit-linear-gradient(#33A8DB, #1c6faa);/*criar um gradiente linear como plano de fundo*/
+    background-clip: text;/* A propriedade 'background-clip' é definida como 'text', indicando que o plano de fundo 
+    será restrito à forma dos caracteres do texto. Isso cria um efeito em que o plano de 
+    fundo é visível apenas onde há texto, tornando-se uma técnica comum para estilizar o texto 
+    com padrões de fundo ou gradientes*/
+    -webkit-background-clip: text;/*A propriedade 'background-clip' é definida como 'text', indicando que o plano de fundo 
+    será restrito à forma dos caracteres do texto. Isso cria um efeito em que o plano de 
+    fundo é visível apenas onde há texto, tornando-se uma técnica comum para estilizar o texto 
+    com padrões de fundo ou gradientes*/
+  }
+
+  .banner p {
+    font-size: 20px; /*Defini tamnaho do paragrafo .banner  */
+    margin: 16px 0 24px;/*Define margens para um elemento 16topo, 0direita, para a parte inferior*/
+  }
+
+  .banner .logo {
+    background-color: rgba(0, 0, 0, .2);/*Define a cor de fundo do elemento. No caso, é um preto (0, 0, 0) com uma opacidade de 0.2 (20%).*/
+    height: 260px;/*Define a altura do elemento*/
+    width: 260px;/*Define a largura do elemento*/
+    margin: auto;/*Centraliza o elemento horizontalmente na página, ajustando automaticamente as margens laterais.*/
+    border-radius: 50%;/* Aplica um arredondamento de borda*/
+    padding: 16px;/*Adiciona um preenchimento interno */
+    margin-bottom: 16px;/*Adiciona uma margem na parte inferio*/
+  }
+
+  .banner .logo img {
+    margin: auto;/*Centraliza a imagem horizontalmente na área disponível.*/
+    width: 100%;/*Define a largura do elemento*/
+    height: 100%;/*Define a altura do elemento*/
+    object-fit: contain;/*Garante que a imagem seja redimensionada de forma proporcional dentro do contêiner,*/
+  }
+
+  .banner .banner-content button {
+    font-size: 1.2rem;/* Define o tamanho da fonte do texto do botão*/
+    padding: 1rem 2.5rem;/*Adiciona preenchimento interno ao botão*/
+    border: none;/*Remove a borda do botão*/
+    outline: none;/*Remove a borda de foco do botão*/
+    border-radius: 0.4rem;/*Adiciona um leve arredondamento às bordas do botão*/
+    cursor: pointer;/*Define o cursor do mouse como um indicador de clique*/
+    text-transform: uppercase;/*Transforma todo o texto do botão para letras maiúsculas.*/
+    background-color: rgb(14, 14, 26);/* Define a cor de fundo do botão.*/
+    color: rgb(234, 234, 234);/* Define a cor do texto do botão.*/
+    font-weight: 700;/*Define a espessura da fonte como negrito*/
+    transition: 0.6s;/* Adiciona uma transição suave de 0.6 segundos para mudanças de estilo*/
+    box-shadow: 0px 0px 60px #1f4c65;/* Adiciona uma sombra ao botão.*/
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));/*Adiciona um reflexo abaixo do botão*/
+   
+  }
+  .banner .banner-content button a{
+     text-decoration: none;/*Remove a decoração padrão de sublinhado dos links*/
+     color: #0026fc;/*Define a cor do texto dos links como um tom específico */
+  }
+
+   .banner .banner-content button:active {/*Pressionado*/
+    scale: 0.92;/*Diminui ligeiramente o tamanho do botão quando está sendo pressionado*/
+  }
+
+  .banner .banner-content button a:active{
+    text-decoration: none;/*Remove a decoração padrão de sublinhado dos links*/
+    color: #0026fc;/*Define a cor do texto dos links como um tom específico */
+  }
+  
+
+  .banner .banner-content button:hover {/* Ao Passar o Mouse*/
+    background: rgb(2,29,78);/*Define o plano de fundo do botão quando o mouse está sobre ele.*/
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);/*Adiciona um gradiente linear ao plano de fundo*/
+    color: rgb(4, 4, 38);/*Define a cor do texto do botão quando o mouse está sobre ele*/
+  }
+
+  .banner .banner-content button a:hover {/* Ao Passar o Mouse*/
+    text-decoration: none;/*Remove a decoração padrão de sublinhado dos links*/
+    color: #0026fc;/*Define a cor do texto dos links como um tom específico */
+  }
+
+  #course-content {
+    width: 800px;/* Define a largura do elemento*/
+    text-align: center;/*: Centraliza o texto*/
+  }
+
+  #course-content .modules-list {
+    margin: 24px 0;/*Define margens para o elemento com a classe "modules-list"*/
+  }
+
+  #course-content .modules-list .module {
+    color: white;/*Define a cor do texto do elemento como branco*/
+    width: 530px;/* Define a largura do elemento*/
+    margin: 0 auto 24px;/* Define margens para o elemento. No caso, são 0 pixels para o topo, automático para a esquerda e direita (centralizando horizontalmente), e 24 pixels para a parte inferior.*/
+    border: 1px solid #33A8DB;/*Adiciona uma borda sólida ao elemento com uma cor */
+    background-color: #252525;/*Define a cor de fundo do elemento como um tom escuro*/
+    padding: 16px;/*Adiciona um preenchimento interno ao elemento d*/
+    border-radius: 100px;/*Adiciona um arredondamento de borda*/
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);/*Adiciona uma sombra interna ao elemento*/
+  }
+
+  #course-content .modules-list .module span {
+    color: #3339db;/*Defini a cor do span*/
+  }
+
+  #transform {
+    height: 560px;/*Define a altura do elemento*/
+    background-size: cover;/* Garante que a imagem de fundo cobre completamente o elemento, mantendo sua proporção*/
+    background-image: url("../trilha-css-desafio-01-main/assets/images/woman-code.png");/*Define a imagem de fundo usando o caminho fornecido*/
+    background-attachment: fixed;/*: Fixa a imagem de fundo, fazendo com que ela permaneça na mesma posição quando a página é rolada.*/
+    border-top: 1px solid #33A8DB80;/* Adiciona uma borda superior de 1 pixel com uma cor específica.*/
+    border-bottom: 1px solid #33A8DB80;/*Adiciona uma borda inferior de 1 pixel com uma cor específica.*/
+    padding: 200px;/**/
+  }
+
+  #transform-world p {
+    font-weight: 00;/*Define a espessura da fonte*/
+    font-size: 2.5rem;/*Define a tamanho da fonte*/
+    text-transform: lowercase;/*Transforma todo o texto do botão para letras minuscula*/
+    max-width: 250px;/*Estabelece que a largura máxima do elemento não deve exceder 250 pixels.*/
+    text-shadow: 3px 2px #33A8DB;/*Adiciona preenchimento interno ao elemento*/
+  }
+
+  #professional-challenges {
+    text-align: center;/*Centraliza o texto dentro do elemento.*/
+    width: 800px;/*Define a largura do elemento como 800 pixels*/
+  }
+  
+#professional-challenges img {
+    margin: 32px 0;/**/
+  }
+  
+  footer {
+    padding: 60px 0;/*Adiciona um preenchimento interno superior e inferior de 60 pixels ao elemento.*/
+    text-align: center;/* Centraliza o texto dentro do elemento.*/
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));/*Define um fundo com um gradiente linear que vai de uma cor quase transparente*/
+    border-top: 1px solid #33A8DB80;/*Adiciona uma borda superior de 1 pixel com uma cor específica */
+  }
+  
+  footer .dio-logo {
+    width: 300px;/*Define a largura de elementos com a classe "dio-logo" dentro do */
+  }
+  
+  footer a {
+    color: #33A8DB;/*Define a cor do texto dos links como um tom específico */
+    font-weight: bold;/* Define a espessura da fonte dos links como negrito.*/
+    text-decoration: none;/*Remove a decoração padrão de sublinhado dos links*/
+  }
